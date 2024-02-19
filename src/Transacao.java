@@ -1,3 +1,4 @@
-public class Transacao {
+public class Transacao  extends Cliente{
+
 
 }

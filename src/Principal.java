@@ -14,5 +14,9 @@ public class Principal {
         System.out.println("Tipo da Conta: " + primeiro_cliente.getTipoDaConta());
         System.out.println("Número da conta: " + primeiro_cliente.getNumeroDaConta());
         System.out.println("Saldo: " + primeiro_cliente.getSaldoConta());
+
+        primeiro_cliente.depositar(200);
+        System.out.println("Novo Saldo: " + primeiro_cliente.getSaldoConta());
+
     }
 }
