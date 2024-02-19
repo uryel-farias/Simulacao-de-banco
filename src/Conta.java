@@ -30,6 +30,14 @@ public class Conta {
     public void depositar(double valor){
         saldoConta += valor;
     }
+
+    public void sacar(double valor) {
+        if(saldoConta < valor) {
+            System.out.println("Saldo insuficiente!");
+        } else {
+            saldoConta -= valor;
+        }
+    }
 }
 
 

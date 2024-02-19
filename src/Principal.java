@@ -18,5 +18,8 @@ public class Principal {
         primeiro_cliente.depositar(200);
         System.out.println("Novo Saldo: " + primeiro_cliente.getSaldoConta());
 
+        primeiro_cliente.sacar( 50);
+        System.out.println("Saldo depois do saque: " + primeiro_cliente.getSaldoConta());
+
     }
 }
