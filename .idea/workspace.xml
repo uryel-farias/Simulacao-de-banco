@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f51344fd-6096-4cfa-b671-b55847a9fa5e" name="Changes" comment="Refatorando código, atualizando o tipo de dado do cpf na classe cliente.">
-      <change beforePath="$PROJECT_DIR$/src/Conta.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Conta.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Principal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Principal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Transacao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Transacao.java" afterDir="false" />
-    </list>
+    <list default="true" id="f51344fd-6096-4cfa-b671-b55847a9fa5e" name="Changes" comment="Inserindo método depsitar na classe Conta." />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -103,13 +99,22 @@
       <option name="project" value="LOCAL" />
       <updated>1708315952555</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Inserindo método depsitar na classe Conta.">
+      <option name="closed" value="true" />
+      <created>1708317674458</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1708317674458</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Primeiro commit." />
     <MESSAGE value="Criação das clases e implementação do Cliente e da Conta." />
     <MESSAGE value="Refatorando código, atualizando o tipo de dado do cpf na classe cliente." />
-    <option name="LAST_COMMIT_MESSAGE" value="Refatorando código, atualizando o tipo de dado do cpf na classe cliente." />
+    <MESSAGE value="Inserindo método depsitar na classe Conta." />
+    <option name="LAST_COMMIT_MESSAGE" value="Inserindo método depsitar na classe Conta." />
   </component>
 </project>
