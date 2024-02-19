@@ -3,9 +3,9 @@ public class Principal {
         Cliente primeiro_cliente = new Cliente();
 
         primeiro_cliente.setNome("Uryel");
-        primeiro_cliente.setCpf(00011122233);
+        primeiro_cliente.setCpf("12345678900");
 
-        primeiro_cliente.setNumeroDaConta(001);
+        primeiro_cliente.setNumeroDaConta(144);
         primeiro_cliente.setSaldoConta(1200.00);
         primeiro_cliente.setTipoDaConta("Conta Corrente");
 

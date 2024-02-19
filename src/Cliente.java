@@ -1,13 +1,13 @@
 public class Cliente extends Conta{
     private String nome;
-    private int cpf;
+    private String cpf;
 
 
     public String getNome() {
         return nome;
     }
 
-    public int getCpf() {
+    public String getCpf() {
         return cpf;
     }
 
@@ -15,7 +15,7 @@ public class Cliente extends Conta{
         this.nome = nome;
     }
 
-    public void setCpf(int cpf) {
+    public void setCpf(String cpf) {
         this.cpf = cpf;
     }
 }
