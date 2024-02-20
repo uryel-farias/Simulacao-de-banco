@@ -1,43 +1,34 @@
-public class Conta {
+public class Conta extends Transacao {
+
+    // Atributos
+
     private int numeroDaConta;
     private String tipoDaConta;
-    private double saldoConta;
+
+    // Gets e Sets
 
     public int getNumeroDaConta() {
         return numeroDaConta;
-    }
-
-    public String getTipoDaConta() {
-        return tipoDaConta;
-    }
-
-    public double getSaldoConta() {
-        return saldoConta;
     }
 
     public void setNumeroDaConta(int numeroDaConta) {
         this.numeroDaConta = numeroDaConta;
     }
 
+    public String getTipoDaConta() {
+        return tipoDaConta;
+    }
+
     public void setTipoDaConta(String tipoDaConta) {
         this.tipoDaConta = tipoDaConta;
     }
 
-    public void setSaldoConta(double saldoConta) {
-        this.saldoConta = saldoConta;
-    }
+    // Métodos
 
-    public void depositar(double valor){
-        saldoConta += valor;
-    }
+    
 
-    public void sacar(double valor) {
-        if(saldoConta < valor) {
-            System.out.println("Saldo insuficiente!");
-        } else {
-            saldoConta -= valor;
-        }
-    }
+
+
 }
 
 
