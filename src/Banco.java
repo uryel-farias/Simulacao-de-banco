@@ -2,7 +2,8 @@ public class Banco {
 
     // Atributos
 
-    private String bancoDoCliente;
+    private String bancoDoCliente ;
+
     private double saldoDoCliente;
 
     // Gets e Sets
@@ -24,7 +25,6 @@ public class Banco {
     }
 
     // Métodos
-
     public void depositar(double valor) {
         if(valor <= 0) {
             System.out.println("Digite um valor maior que zero.");
@@ -41,4 +41,5 @@ public class Banco {
             saldoDoCliente -= valor;
         }
     }
+
 }

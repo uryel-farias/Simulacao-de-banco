@@ -5,6 +5,7 @@ public class Cliente extends Transacao {
     private String nome;
     private String cpf;
 
+
     // Gets e Sets
 
     public String getNome() {
@@ -26,10 +27,26 @@ public class Cliente extends Transacao {
     // Métodos
 
     public void informacoesDoCliente() {
-        System.out.printf("Cliente: %s", this.nome);
-        System.out.printf("CPF: %s",this.cpf);
-        System.out.printf("Banco: %s",this.getBancoDoCliente());
-        System.out.printf("Saldo: %f", this.getSaldoDoCliente());
+        System.out.println("Cliente: " + this.nome);
+        System.out.println("CPF: " + this.cpf);
+        System.out.println("Banco: " + this.getBancoDoCliente());
+        System.out.println("Saldo: " + this.getSaldoDoCliente());
+        System.out.println("Transaçoes Recentes: " + this.getTransacaoTransaferencia());
+
+    }
+
+    public void trandferirValor (Cliente clienteQueTranfere,  Cliente clienteQueRecebe, double valor ){
+        if(clienteQueTranfere.getSaldoDoCliente() >= valor) {
+            clienteQueRecebe.depositar(valor);
+            int incremento = clienteQueRecebe.getTransacaoTransaferencia();
+            clienteQueRecebe.setTransacaoTransaferencia(incremento + 1);
+
+        } else {
+            System.out.println("Você não tem saldo suficiente para esta transferência.");
+        }
+
+
+
 
     }
 

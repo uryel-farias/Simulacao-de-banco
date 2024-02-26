@@ -3,7 +3,7 @@ public class Transacao  extends Banco {
     // Atributos
 
     private double taxa;
-    private int transacoesRecentes;
+    private int transacaoTransaferencia;
 
     // Gets e Sets
 
@@ -15,12 +15,15 @@ public class Transacao  extends Banco {
         this.taxa = taxa;
     }
 
-    public int getTransacoesRecentes() {
-        return transacoesRecentes;
+    public int getTransacaoTransaferencia() {
+        return transacaoTransaferencia;
     }
 
-    public void setTransacoesRecentes(int transacoesRecentes) {
-        this.transacoesRecentes = transacoesRecentes;
+    public void setTransacaoTransaferencia(int transacaoTransaferencia) {
+        this.transacaoTransaferencia = transacaoTransaferencia;
+    }
+
+
     }
 
     // Métodos
@@ -28,4 +31,5 @@ public class Transacao  extends Banco {
 
 
 
-}
+
+
